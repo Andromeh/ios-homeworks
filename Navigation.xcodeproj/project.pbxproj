@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A437ACE7282CD06A009C681E /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A437ACE6282CD06A009C681E /* ProfileHeaderView.swift */; };
 		A45AEDA42805D19500EB3181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEDA32805D19500EB3181 /* AppDelegate.swift */; };
 		A45AEDA62805D19500EB3181 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEDA52805D19500EB3181 /* SceneDelegate.swift */; };
 		A45AEDA82805D19500EB3181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45AEDA72805D19500EB3181 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A437ACE6282CD06A009C681E /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		A45AEDA02805D19500EB3181 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45AEDA32805D19500EB3181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45AEDA52805D19500EB3181 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A437ACE5282CD037009C681E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A437ACE6282CD06A009C681E /* ProfileHeaderView.swift */,
+				A45AEDBB2805D48300EB3181 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		A45AED972805D19500EB3181 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +75,7 @@
 		A45AEDA22805D19500EB3181 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				A437ACE5282CD037009C681E /* Profile */,
 				A45AEDC12805D62900EB3181 /* Controllers */,
 				A45AEDA32805D19500EB3181 /* AppDelegate.swift */,
 				A45AEDA52805D19500EB3181 /* SceneDelegate.swift */,
@@ -80,7 +92,6 @@
 			children = (
 				A45AEDB72805D3FE00EB3181 /* TabBarViewController.swift */,
 				A45AEDB92805D46600EB3181 /* FeedViewController.swift */,
-				A45AEDBB2805D48300EB3181 /* ProfileViewController.swift */,
 				A45AEDBD2805D53A00EB3181 /* PostViewController.swift */,
 				A45AEDBF2805D5BC00EB3181 /* InfoViewController.swift */,
 			);
@@ -161,6 +172,7 @@
 				A45AEDB82805D3FE00EB3181 /* TabBarViewController.swift in Sources */,
 				A45AEDBE2805D53A00EB3181 /* PostViewController.swift in Sources */,
 				A45AEDA82805D19500EB3181 /* ViewController.swift in Sources */,
+				A437ACE7282CD06A009C681E /* ProfileHeaderView.swift in Sources */,
 				A45AEDBA2805D46600EB3181 /* FeedViewController.swift in Sources */,
 				A45AEDA42805D19500EB3181 /* AppDelegate.swift in Sources */,
 				A45AEDC02805D5BC00EB3181 /* InfoViewController.swift in Sources */,
